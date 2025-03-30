@@ -1,0 +1,6 @@
+.terraform.lock.hcl
+.terraform/
+dev.tfvars:Zone.Identifier
+ec2.tf:Zone.Identifier
+main.tf:Zone.Identifier
+variables.tf:Zone.Identifier
