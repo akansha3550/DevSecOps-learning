@@ -7,9 +7,9 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket         = "deletelaters3backend"
-    key            = "workspace.statefile"
-    region         = "us-east-1"
+    bucket = "deletelaters3backend"
+    key    = "workspace.statefile"
+    region = "us-east-1"
   }
 }
 
@@ -18,7 +18,7 @@ resource "aws_vpc" "default" {
   enable_dns_hostnames = true
   tags = {
     Name  = "${var.vpc_name}"
-    Owner = "Saikiran"
+    Owner = "Akansha"
   }
 }
 
